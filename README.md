@@ -1,16 +1,7 @@
 # ui_assignment
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Simple application using Flutter. The application has a splash screen with a logo, followed by a login page and a home page. The login page has two text fields for email and password. The home page has  a list of items that can be selected.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application also has a basic navigation, and  makes use of the material library.
