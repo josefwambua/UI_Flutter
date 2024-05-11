@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Container(
         decoration: BoxDecoration(
-          color: Color.fromRGBO(255, 255, 200, 5),
+          color: Color.fromRGBO(255, 255, 200, 0.5), // Adjust opacity to 0.5
           image: DecorationImage(
             image: AssetImage('assets/bg.jpg'), 
             fit: BoxFit.cover,
@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
               title: Text('Item $index', style: TextStyle(color: Colors.white)),
               onTap: () {
                 // Handle item selection
+                print('Item $index selected');
               },
             );
           },
